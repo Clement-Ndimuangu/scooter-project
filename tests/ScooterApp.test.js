@@ -77,3 +77,5 @@ describe('dock scooter tests', ()=>{
      expect(()=>{scooterApp.dockScooter(newScooter, 'location2')}).toThrow('scooter already at station')
   })
 })
+
+
